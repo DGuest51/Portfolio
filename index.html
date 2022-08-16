@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Donovan's Portfolio</title>
+		<meta Name="viewport" 
+		content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<link rel="stylesheet" href="styling.css">
+		
+	</head>
+	
+	<body>
+	<div id="container">
+		<!-- <div id="header">
+			<div class="frame" id="smallframe">
+			<div id="brand">
+				<h1><a href="#">Donovan Guest</a></h1>
+			</div>
+			</div> -->
+		<!-- </div> -->
+		<!-- <div class="clear">
+		</div> -->
+		
+		<div class="section" id="introduction">
+			<div id="menu">
+			<nav>
+				
+				<ul>
+					<li>Donovan <span>Guest</span></li>
+					<!-- <li><a href="#">Home</a></li> -->
+					<li><a href="#aboutme">About</a></li>
+					<!-- <li><a href="#services">Services</a></li> -->
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<!-- <li id="resume"><a href="#resume">Download Resume</a></li> -->
+					<button type="button" id="resume"><span></span> Download Resume</button>
+				</ul>
+			</nav>
+			</div>
+			<h2 id="introtextlarge">Hello, World! My name is Donovan <br></br><span id="introtext">and I am an aspiring software developer...</span></h2>
+			<p class="captions">Leptospermum shurb. Hearst Castle, San Simeon, CA</p>
+
+		</div>
+		<!--<div class="clear"></div>-->
+		<div class="section" id="aboutme">
+			<h2>More About Me</h2>
+			<div class="frame" id="pictureframe">
+			</div>
+			<p id="aboutmetext">My name is Donovan Guest and I am an aspiring software developer. I am learning in demand programming languages such as Python, C#, SQL, HTML, CSS and JavaScript.
+				A little about myself. I am a citizen of three countries, served four years in the Marine Corps as an Infantryman, and photographing my travels is one of my favorite hobbies. All pictures on this site are taken by myself.
+			</p>
+			<p class="captions">Uninhabited island in Bocas del Toro, Panama</p>
+		</div>
+		<!-- <div class="section" id="services">
+			<h2>Services</h2>
+			<p class="captions">Huayna Picchu overlooking Machu Picchu</p>
+		</div> -->
+		<div class="section" id="portfolio">
+			<h2>Portfolio</h2>
+			<p class="captions">Pacific Coast Highway near Big Sur, California</p>
+		</div>
+		<div class="section" id="contact">
+			<h2>Have a question or want to work together? <br>Get In Touch With Me!</h2>
+			<!-- <p id="smallerpara">Have a question or want to work together?</p> -->
+			<form class="contactinfo">
+				<input type="text" name="name" id="name" required="" placeholder="Name">
+				<input type="email" name="email" id="mail" required="" placeholder="Email">
+				<!-- <input type="text" name="subject" id="subject" required="" placeholder="Subject"> -->
+				<textarea type="text" name="textarea" id="message" required="" placeholder="Message" rows="10" cols="60"></textarea>
+				<!-- <input type="text" name="message" id="message" placeholder="Write your message here"> -->
+				<button type="submit" id="submit-message">Contact Me</button>
+			</form>
+			<p class="captions">Sunset Key, Florida</p>
+			<p id="contactfooter">Donovan Guest &copy; 2022</p>
+			<i class="scroll-up" id="scroll-up"
+				><img
+				  src="images/icons/uparrow.png"
+				  class="socicon up-arrow"
+				  alt="scroll-up"
+			  /></i>
+			<script>const scrollUp = document.querySelector("#scroll-up");
+
+				scrollUp.addEventListener("click", () => {
+				  window.scrollTo({
+					top: 0,
+					left: 0,
+					behavior: "smooth",
+				  });
+				});</script>
+		</div>
+		<!-- <footer class="footer">
+		<div>
+		<p> Donovan Guest &copy; 2022</p>
+		</div>
+		</div> -->
+	</div>
+	</body>
+	
+</html>

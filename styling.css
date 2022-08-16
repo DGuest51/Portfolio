@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;*/
+}
+body {
+	font: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#container {
+	/* width: 1050px; */
+	/*border: 1px solid grey;*/
+	margin: 0 auto;
+	
+}
+/* #header {
+	height: 50px;
+	padding: 10px 15px;
+	background-color: #37f360;
+} */
+#brand {
+	float: left;
+}
+#menu{
+	/* height:35px; */
+	/* background: linear-gradient(black,blue); */
+	padding: 5px;
+	align-items: left;
+	display: flex;
+	/* background-color: #37f360; */
+	vertical-align: middle;
+	
+}
+ul {
+	list-style: none;
+}
+#menu ul li{
+	/* float: left;
+	padding: 0 130px;
+	height: 20px;
+	border-right: 1px solid #5d12e7; */
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	
+}
+#menu ul li:last-child {
+	border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: bolder;
+	color: black;
+	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-width: 1px;
+	line-height: 30px;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+#menu ul li a:hover {
+	font-size:20px;
+	font-weight:bold;
+	color: aqua;
+	text-shadow: 3px 3px black;
+}
+#resume{
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff;
+	border: 2px solid var(--primary-color);
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: var(--bold-font);
+	transition: var(--transition);
+}
+#introduction {
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+	background: url(images/Calif/flowers.JPG) no-repeat;
+	/* background-size: 1200px 700px; */
+	background-size: cover;
+	text-shadow: white 1px 1px;
+	/* padding: 30px;
+	margin: 16px 0; */
+	font-size: 30px;
+	/*height: auto;*/
+	background-position: center;
+	flex-direction: column;
+
+}
+#introtextlarge{
+margin: auto;
+padding-bottom: 20%;
+}
+
+#introduction h3{
+	font-size: 40px;
+	color: #37f360;
+	font-weight: normal;
+}
+#introduction h4{
+	color: auto;
+	font-size: 19px;
+	/*text-align: justify;*/
+}
+.captions{
+	text-align: right;
+	padding-right: 10px;
+	color: white;
+	text-shadow: black 1px 1px;
+}
+#listholder {
+		width:auto;
+}
+/* .footer {
+	height: 20px;
+	padding: 15px 5px;
+	margin-top: 15px;
+	text-align: right;
+	background-image: linear-gradient(white,grey); 
+} */
+.section {
+	height: 55rem;
+	text-align: center;
+}
+.section h2{
+	color: white;
+	text-shadow: black 2px 2px;
+}
+.section p {
+	font-size: 15px;
+}
+#aboutme{
+	background: url(images/Panama/DSC-0376.JPG) no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	
+}
+#aboutmetext{
+	margin: auto;
+	padding-top: 10%;
+	padding-right: 50%;
+	
+}
+#pictureframe{
+	height: 300px;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-left: 10rem;
+	background: url(images/Calif/HikingSelfie.JPG) no-repeat;
+	background-size: cover;
+	background-position: 38%;
+	border-radius: 50%;
+	
+}
+#brand{
+	height: 30px;
+	width: 30px;
+	/* border: 1px solid black; */
+	background: url(images/Calif/HikingSelfie.JPG) no-repeat;
+	background-size: cover;
+	background-position: 38%;
+	border-radius: 50%;
+}
+/* #services{
+	background: url(images/Peru/DSC-0009.jpg) no-repeat;
+	background-size: cover;
+} */
+#portfolio{
+	background: url(images/Calif/DSC-0199.JPG) no-repeat;
+	background-size: cover;
+}
+#contact{
+	background: url(images/Florida/sunset.JPG) no-repeat;
+	background-size: cover;
+}
+.contactinfo{
+	display: flex;
+	flex-direction: column;
+	/* width: 500px; */
+	align-items: center;
+	align-content: center;
+	padding: 1%;
+}
+
+#name, #mail, #subject {
+	width: 300px;
+	border-style: outset;
+	opacity: 50%;
+	padding:5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+#message{
+	resize: vertical;
+	border-style: outset;
+	opacity: 50%;
+	padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+#contactfooter{
+	text-align: left;
+	color: white;
+	/* position: absolute; */
+	align-content: flex-end;
+	/* background-color: #37f360; */
+	/* padding-top: 50%; */
+	position: relative;
+bottom: 0;
+left: 0;
+}
+/* #smallerpara{
+	font-size: larger;
+} */
+#submit-message{
+	opacity: 70%;
+	/* width: 100%; */
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+.scroll-up {
+	position: fixed;
+	right: 0.5%;
+	bottom: 3%;
+	cursor: pointer;
+  }
+  
+  .up-arrow {
+	width: 3rem;
+	height: 3rem;
+  }
