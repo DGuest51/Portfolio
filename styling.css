@@ -1,8 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	/*font-family: 'Josefin Sans', sans-serif;
-	box-sizing: border-box;*/
 }
 body {
 	font: Arial, Helvetica, sans-serif;
@@ -11,45 +9,30 @@ body {
 	box-sizing: border-box;
 }
 #container {
-	/* width: 1050px; */
-	/*border: 1px solid grey;*/
 	margin: 0 auto;
-	
 }
-/* #header {
-	height: 50px;
-	padding: 10px 15px;
-	background-color: #37f360;
-} */
+
 #brand {
 	float: left;
 }
 #firstname{
-	color: #d1ac00;
+	color: #cefdff;
 	font-size: 3rem;
 }
 #lastname{
-	color: #cefdff;
+	color: #d1ac00;
 }
 #menu{
-	/* height:35px; */
-	/* background: linear-gradient(black,blue); */
 	padding: 5px;
 	align-items: left;
 	display: flex;
 	flex-direction: row;
-	/* background-color: #37f360; */
 	vertical-align: middle;
-	
 }
 ul {
 	list-style: none;
 }
 #menu ul li{
-	/* float: left;
-	padding: 0 130px;
-	height: 20px;
-	border-right: 1px solid #5d12e7; */
 	list-style-type: none;
 	display: inline-block;
 	padding: 10px 25px;
@@ -93,7 +76,6 @@ ul {
 } */
 #buttonholder{
 	float: right;
-	/* text-align: right; */
 }
 #introduction {
 	display: flex;
@@ -130,15 +112,7 @@ padding-bottom: 20%;
 #listholder {
 		width:auto;
 }
-/* .footer {
-	height: 20px;
-	padding: 15px 5px;
-	margin-top: 15px;
-	text-align: center;
-	background-image: linear-gradient(white,grey); 
-} */
 #captioncontainer{
-	/* bottom:0; */
 	background-color: #37f360;
 	position: flex;
 }
@@ -150,8 +124,6 @@ padding-bottom: 20%;
 	text-align: right;
 	margin-right: 4rem;
 	margin-bottom: 1rem;
-	/* position: absolute; 
-	bottom: 0; */
 }
 
 #contactfootercaption {
@@ -163,8 +135,8 @@ padding-bottom: 20%;
 
 #contactfooter{
 	width: 50%;
-	float: left;
-	text-align: left;
+	float: right;
+	text-align: right;
 	margin-left: 4rem;
 	color: white;
 }
@@ -201,9 +173,6 @@ padding-bottom: 20%;
 
 #aboutmetext{
 	margin: auto;
-	/* margin-right: 75%; */
-	/* padding-top: 10%;
-	padding-right: 50%; */
 	padding: 2rem;
 	font-size: 1.25rem;
 	font-weight: 900;
@@ -226,16 +195,12 @@ padding-bottom: 20%;
 #brand{
 	height: 30px;
 	width: 30px;
-	/* border: 1px solid black; */
 	background: url(images/Calif/HikingSelfie.JPG) no-repeat;
 	background-size: cover;
 	background-position: 38%;
 	border-radius: 50%;
 }
-/* #services{
-	background: url(images/Peru/DSC-0009.jpg) no-repeat;
-	background-size: cover;
-} */
+
 #portfolio{
 	background: url(images/Calif/DSC-0199.JPG) no-repeat;
 	background-size: cover;
@@ -249,7 +214,6 @@ padding-bottom: 20%;
 .contactinfo{
 	display: flex;
 	flex-direction: column;
-	/* width: 500px; */
 	align-items: center;
 	align-content: center;
 	padding: 1%;
@@ -269,7 +233,7 @@ padding-bottom: 20%;
 }
 #message{
 	width: 40%;
-	height: 35vh;
+	height: 25vh;
 	resize: none;
 	border-style: outset;
 	opacity: 50%;
@@ -281,14 +245,8 @@ padding-bottom: 20%;
   	font-weight: var(--bold-font);
   	transition: var(--transition);
 }
-
-/* #smallerpara{
-	font-size: larger;
-} */
 #submit-message{
 	opacity: 70%;
-	/* width: 100%; */
-	
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
   padding-left: 4.5rem;
@@ -316,16 +274,24 @@ padding-bottom: 20%;
   .projects {
 	display: flex;
 	height: auto;
-	border: 1rem solid white;
+	/* border: 1rem solid white; */
+	margin-top: 5rem;
   }
 
   .project1{
 	width: 50%;
 	height: 25vh;
-	border: 1rem solid black;
+	/* border: 1rem solid black; */
+	background-image: url(images/icons/github.png);
+	background-position: center;
+	background-size: auto;
   }
   .project2{
 	width: 50%;
 	height: 25vh;
-	border: 1rem solid green;
+	/* border: 1rem solid green; */
+	background-image: url(images/icons/linkedin.png);
+  }
+  #linkedin{
+	
   }
